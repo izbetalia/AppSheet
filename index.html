@@ -23,7 +23,6 @@ html,body{width:100%;height:100%;overflow:hidden;background:#060d1a;color:#f1f5f
 .badge-rose{background:rgba(244,63,94,.14);border:1px solid rgba(244,63,94,.3);color:#fda4af}
 .btn-link{display:inline-flex;align-items:center;gap:.45rem;padding:.55rem 1.1rem;border-radius:12px;background:rgba(6,182,212,.14);border:1px solid rgba(6,182,212,.32);color:#67e8f9;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .2s}
 .btn-link:hover{background:rgba(6,182,212,.26)}
-.step-num{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem;flex-shrink:0}
 .nav{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:100;display:flex;align-items:center;gap:12px;padding:8px 18px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(12px)}
 .nbtn{width:38px;height:38px;border:none;border-radius:50%;background:rgba(255,255,255,.08);color:#67e8f9;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.22);cursor:pointer;transition:all .2s}
@@ -36,253 +35,26 @@ a.plain:hover{text-decoration:underline}
 </style>
 </head>
 <body>
-<div style="text-align:center;padding:20px 20px 0;"><img src="https://raw.githubusercontent.com/izbetalia/izbetalia-home/main/Izbetalia-Logo-Dual.jpg" alt="Izbetalia bilingual logo" style="max-width:420px;width:90%;height:auto;margin:0 auto;display:block;"></div>
-
+<div style="text-align:center;padding:20px 20px 0;"><img src="./izbetalia-logo-dual.png" alt="Izbetalia bilingual logo" style="max-width:420px;width:90%;height:auto;margin:0 auto;display:block;"></div>
 <div class="deck">
-
-<!-- SLIDE 1: COVER -->
-<div class="slide active" data-s="1">
-  <div class="orb" style="width:520px;height:520px;top:-130px;right:-110px;background:#7c3aed;opacity:.17"></div>
-  <div class="orb" style="width:340px;height:340px;bottom:-80px;left:-60px;background:#06b6d4;opacity:.15"></div>
-  <div class="content" style="text-align:center">
-    <div style="font-size:clamp(4rem,10vw,7rem)" class="float">🏥</div>
-    <h1 style="font-family:'Cairo',sans-serif;font-size:clamp(2.4rem,5.5vw,4.4rem);font-weight:900;line-height:1.1;margin:.6rem 0 .4rem;background:linear-gradient(135deg,#a78bfa,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">إزبيتاليا | Izbetalia</h1>
-    <p class="en" style="font-size:clamp(1rem,1.6vw,1.25rem);color:#94a3b8;letter-spacing:.04em">Your Medical Career Marketplace</p>
-    <p class="ar" style="font-size:clamp(1rem,1.6vw,1.25rem);color:#94a3b8;margin-top:.3rem;text-align:center">منصة التوظيف الطبي</p>
-    <div class="glass" style="max-width:760px;margin:2rem auto 0;padding:1.4rem 1.8rem">
-      <span class="en" style="font-size:1.05rem">This guide walks you through everything: creating your account, adding your profile details, posting a job application or vacancy, and browsing Izbetalia.</span>
-      <span class="ar" style="font-size:1.1rem;margin-top:.6rem">هذا الدليل يأخذك خطوة بخطوة: إنشاء حسابك، إضافة تفاصيل ملفك الشخصي، نشر طلب توظيف أو وظيفة شاغرة، واستخدام إزبتاليا.</span>
-    </div>
-  </div>
+<div class="slide active" data-s="1"><div class="orb" style="width:520px;height:520px;top:-130px;right:-110px;background:#7c3aed;opacity:.17"></div><div class="orb" style="width:340px;height:340px;bottom:-80px;left:-60px;background:#06b6d4;opacity:.15"></div><div class="content" style="text-align:center"><div style="font-size:clamp(4rem,10vw,7rem)" class="float">🏥</div><h1 style="font-family:'Cairo',sans-serif;font-size:clamp(2.4rem,5.5vw,4.4rem);font-weight:900;line-height:1.1;margin:.6rem 0 .4rem;background:linear-gradient(135deg,#a78bfa,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">إزبيتاليا | Izbetalia</h1><p class="en" style="font-size:clamp(1rem,1.6vw,1.25rem);color:#94a3b8;letter-spacing:.04em">Your Medical Career Marketplace</p><p class="ar" style="font-size:clamp(1rem,1.6vw,1.25rem);color:#94a3b8;margin-top:.3rem;text-align:center">منصة التوظيف الطبي</p><div class="glass" style="max-width:760px;margin:2rem auto 0;padding:1.4rem 1.8rem"><span class="en" style="font-size:1.05rem">This guide walks you through everything: creating your account, adding your profile details, posting a job application or vacancy, and browsing Izbetalia.</span><span class="ar" style="font-size:1.1rem;margin-top:.6rem">هذا الدليل يأخذك خطوة بخطوة: إنشاء حسابك، إضافة تفاصيل ملفك الشخصي، نشر طلب توظيف أو وظيفة شاغرة، واستخدام إزبتاليا.</span></div></div></div>
+<div class="slide" data-s="2"><div class="orb" style="width:400px;height:400px;top:-100px;right:-80px;background:#06b6d4;opacity:.13"></div><div class="orb" style="width:280px;height:280px;bottom:-70px;left:-40px;background:#7c3aed;opacity:.13"></div><div class="content"><div class="badge badge-teal" style="margin-bottom:1rem">Step 1 | الخطوة الأولى</div><h2 style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;line-height:1.2"><span class="en">Who are you? Choose your account type.</span><span class="ar" style="margin-top:.35rem">من أنت؟ اختر نوع حسابك.</span></h2><div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:1.6rem"><div class="glass" style="padding:1.6rem"><div style="font-size:2.5rem;margin-bottom:.8rem">👤</div><span class="en" style="font-size:1.15rem;font-weight:700;color:#a78bfa">Individual User</span><span class="ar" style="font-size:1.15rem;font-weight:700;color:#a78bfa;margin-top:.3rem">مستخدم فردي</span><p class="en" style="color:#94a3b8;font-size:.92rem;margin-top:.7rem">Doctors, nurses, pharmacists, allied health professionals, administrative staff, executives, and all medical and healthcare-support professionals looking for opportunities.</p><p class="ar" style="color:#94a3b8;font-size:.95rem;margin-top:.5rem">أطباء، ممرضون، صيادلة، كوادر صحية مساندة، موظفون إداريون، تنفيذيون، وكل المهنيين في المجال الطبي والوظائف الداعمة للرعاية الصحية الباحثين عن فرص.</p><div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLScp7-F33hoN7E3lvsJVaf1gunQ1ZJgDy-0HGbRaPckFU6xKcA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Register – سجّل</a></div></div><div class="glass" style="padding:1.6rem"><div style="font-size:2.5rem;margin-bottom:.8rem">🏥</div><span class="en" style="font-size:1.15rem;font-weight:700;color:#67e8f9">Medical Establishment</span><span class="ar" style="font-size:1.15rem;font-weight:700;color:#67e8f9;margin-top:.3rem">مؤسسة طبية</span><p class="en" style="color:#94a3b8;font-size:.92rem;margin-top:.7rem">Hospitals, clinics, pharmacies, medical centers, agencies, companies, and supporting establishments looking to hire qualified staff and professionals.</p><p class="ar" style="color:#94a3b8;font-size:.95rem;margin-top:.5rem">مستشفيات، عيادات، صيدليات، مراكز طبية، وكالات، شركات، وجهات داعمة تبحث عن كوادر وموظفين مؤهلين.</p><div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdOHt9YaUX-WTM8-hCJErydVKs6FgvuJXb0KqVoMakh0xP6_w/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Register – سجّل</a></div></div></div></div></div>
+<div class="slide" data-s="3"><div class="orb" style="width:360px;height:360px;top:-80px;right:-60px;background:#a78bfa;opacity:.12"></div><div class="orb" style="width:260px;height:260px;bottom:-60px;left:-30px;background:#06b6d4;opacity:.1"></div><div class="content"><div class="badge badge-violet" style="margin-bottom:1rem">Step 2 – Individual Users Only | الخطوة الثانية – للمستخدمين الأفراد فقط</div><h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2"><span class="en">Complete your professional profile</span><span class="ar" style="margin-top:.3rem">أكمل ملفك المهني</span></h2><p class="en" style="color:#94a3b8;margin:.7rem 0 1.4rem">After registering, add your academic background, postgraduate qualifications, and work history using the three forms below.</p><p class="ar" style="color:#94a3b8;margin:.5rem 0 1.4rem;font-size:.98rem">بعد التسجيل، أضف مؤهلاتك الأكاديمية والدراسات العليا وخبراتك المهنية باستخدام النماذج الثلاثة التالية.</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem"><div class="glass" style="padding:1.4rem"><div style="font-size:2rem;margin-bottom:.7rem">🎓</div><span class="en" style="font-weight:700;font-size:1rem">Academic Degree</span><span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">المؤهل الدراسي</span><p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Add your university degrees and graduation details.</p><p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">أضف درجاتك الجامعية وتفاصيل التخرج.</p><div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfTxHp6pQS3krEnihMdmomOKkHvF1ZhKMDVHFLsN1XLdJWI4g/viewform" target="_blank">Open Form ←</a></div></div><div class="glass" style="padding:1.4rem"><div style="font-size:2rem;margin-bottom:.7rem">📜</div><span class="en" style="font-weight:700;font-size:1rem">Post Graduate Education</span><span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">الدراسات العليا والشهادات</span><p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Certifications, fellowships, and specialty qualifications.</p><p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">الشهادات والزمالات والمؤهلات التخصصية.</p><div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLScAo5zIk7T-rXrCtJKLG_bMO_zVMpZ_0yCoAZaGRyfaq1PNcw/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">Open Form ←</a></div></div><div class="glass" style="padding:1.4rem"><div style="font-size:2rem;margin-bottom:.7rem">💼</div><span class="en" style="font-weight:700;font-size:1rem">Work Experience</span><span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">الخبرة العملية</span><p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Add each job position, employer, and employment dates.</p><p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">أضف كل منصب وجهة عمل وتواريخ التوظيف.</p><div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdyLdyudMD39PJIAiyGuuCgJbH4_bxcoXA7JNVrsEIS2pH66g/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">Open Form ←</a></div></div></div></div></div>
+<div class="slide" data-s="4"><div class="orb" style="width:380px;height:380px;top:-90px;right:-70px;background:#06b6d4;opacity:.12"></div><div class="orb" style="width:260px;height:260px;bottom:-60px;left:-40px;background:#7c3aed;opacity:.11"></div><div class="content"><div class="badge badge-amber" style="margin-bottom:1rem">Step 3 | الخطوة الثالثة</div><h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2"><span class="en">Post your listing on the Izbetalia</span><span class="ar" style="margin-top:.3rem">انشر إعلانك في إزبتاليا</span></h2><div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:1.4rem"><div class="glass" style="padding:1.6rem"><span class="badge badge-violet" style="margin-bottom:.9rem">Individual User | مستخدم فردي</span><div style="font-size:2rem;margin:.5rem 0 .8rem">📋</div><span class="en" style="font-weight:700;font-size:1.1rem">Job Application Form</span><span class="ar" style="font-weight:700;font-size:1.1rem;margin-top:.3rem">نموذج طلب التوظيف</span><p class="en" style="color:#94a3b8;font-size:.88rem;margin-top:.65rem">Create your candidate listing: specialty, experience level, employment type, location, and preferences. Medical establishments will find and contact you.</p><p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">أنشئ إعلانك كمرشح: التخصص، مستوى الخبرة، نوع العمل، الموقع والتفضيلات. ستجدك المؤسسات الطبية وتتواصل معك.</p><div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdcZKkMAGFKOTBc3XJNNWN9mMeV-qdsGstu6rmux0T2l1cGPA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Post Application – انشر الطلب</a></div></div><div class="glass" style="padding:1.6rem"><span class="badge badge-teal" style="margin-bottom:.9rem">Medical Establishment | مؤسسة طبية</span><div style="font-size:2rem;margin:.5rem 0 .8rem">🏥</div><span class="en" style="font-weight:700;font-size:1.1rem">Job Vacancy Form</span><span class="ar" style="font-weight:700;font-size:1.1rem;margin-top:.3rem">نموذج الوظائف الشاغرة</span><p class="en" style="color:#94a3b8;font-size:.88rem;margin-top:.65rem">Post your open position: job title, required specialty, experience, employment type, and location. Qualified candidates will find and contact you.</p><p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">انشر وظيفتك الشاغرة: المسمى، التخصص المطلوب، الخبرة، نوع العمل والموقع. سيجدك المرشحون المؤهلون ويتواصلون معك.</p><div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdpw65hjB9ArQMmuAxNrDL-odCS_2oy49NPjJrNm-QmNYgopQ/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Post Vacancy – انشر الوظيفة</a></div></div></div></div></div>
+<div class="slide" data-s="5"><div class="orb" style="width:420px;height:420px;top:-90px;right:-80px;background:#06b6d4;opacity:.12"></div><div class="orb" style="width:300px;height:300px;bottom:-70px;left:-50px;background:#a78bfa;opacity:.12"></div><div class="content"><div class="badge badge-teal" style="margin-bottom:1rem">Step 4 | الخطوة الرابعة</div><h2 style="font-size:clamp(1.8rem,3.4vw,2.8rem);font-weight:800;line-height:1.15;text-align:center"><span class="en">Browse & contact on the Izbetalia App</span><span class="ar" style="margin-top:.35rem;text-align:center">تصفح وتواصل عبر تطبيق إزبيتاليا</span></h2><p class="en" style="text-align:center;color:#94a3b8;margin:.8rem auto 1.6rem;max-width:900px">Once you have registered and posted your listing, open the Izbetalia App to search and browse all active listings — no sign-in needed to browse!</p><p class="ar" style="text-align:center;color:#94a3b8;margin:.5rem auto 1.6rem;max-width:900px;font-size:.98rem">بعد التسجيل ونشر إعلانك، افتح تطبيق إزبيتاليا للبحث والتصفح في جميع الإعلانات النشطة — لا تحتاج لتسجيل دخول للتصفح!</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;align-items:stretch"><div class="glass" style="padding:1.4rem;display:flex;flex-direction:column;justify-content:space-between;min-height:260px"><div><div style="font-size:2rem;margin-bottom:.6rem">🔎</div><h3 class="en" style="font-size:1.05rem;font-weight:800">Browse and Search Available Job Vacancies</h3><h3 class="ar" style="font-size:1.05rem;font-weight:800;margin-top:.35rem">تصفح و بحث فرص الوظائف المتوفرة</h3><p class="en" style="color:#94a3b8;font-size:.9rem;margin-top:.8rem">All open job vacancies posted by medical establishments — filter by specialty, location, and employment type. Find the right opportunity and send a contact request.</p><p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">جميع الوظائف الشاغرة المنشورة من المؤسسات الطبية — يمكن التصفية حسب التخصص والموقع ونوع العمل. ابحث عن الفرصة المناسبة وأرسل طلب تواصل.</p></div><a class="btn-link" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA63PvQ7CIBQF4FcxZ-YJWI2DGnXQuIgDLbcJsQUCVG0I7y71Jw5u6si5OV8OCWdNl22U9Qn8kN6vJQ3gSAK7wZEAF5haE71tBZjAWnaPcGGrycY562NvdNQUBDLykb2gSAE8fenwP-1h0IpM1I0mP6IjUbAnUM5jvQQfZWSGro-yaun-l1LOuWSNrftAal_G_TIqzM3s6qRRK6uK3cg2UL4BfeEDDJIBAAA=&view=Job%20Opportunities" target="_blank" style="align-self:flex-start">Open Vacancies</a></div><div class="glass" style="padding:1.4rem;display:flex;flex-direction:column;justify-content:space-between;min-height:260px"><div><div style="font-size:2rem;margin-bottom:.6rem">🧩</div><h3 class="en" style="font-size:1.05rem;font-weight:800">Browse and Search Available Job Applications</h3><h3 class="ar" style="font-size:1.05rem;font-weight:800;margin-top:.35rem">تصفح و بحث طلبات التوظيف المتوفرة</h3><p class="en" style="color:#94a3b8;font-size:.9rem;margin-top:.8rem">All active job applications posted by individual users — filter by specialty, experience level, and location. Find the right candidate and send a contact request.</p><p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">جميع طلبات التوظيف النشطة المنشورة من الأفراد — يمكن التصفية حسب التخصص والخبرة والموقع. ابحث عن المرشح المناسب وأرسل طلب تواصل.</p></div><a class="btn-link" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA62PvQrCMBSFX0XOnCfIJuKgooviYhzS5haCaRKaVC0h727qD4KjOt5z-D7OTThrumyjrE_gh_S-VjSAIwnsBk8CXGDmbOycEWACG9k-wqWrJlPvja5l1M4GgYx8ZC9PpACevtPw_6xh0Ips1I2mbnSOhuJ68qUe6RJ8ssgMbR9lZej-SGFzLlnj6j6Q2pdpP0wKCzu_emnV2qmibqQJlG-vplxwjQEAAA==&view=Job%20Applications" target="_blank" style="align-self:flex-start">Open Applications</a></div></div></div></div>
+<div class="slide" data-s="6"><div class="orb" style="width:420px;height:420px;top:-110px;right:-90px;background:#a78bfa;opacity:.13"></div><div class="orb" style="width:300px;height:300px;bottom:-80px;left:-50px;background:#06b6d4;opacity:.12"></div><div class="content"><div class="badge badge-rose" style="margin-bottom:1rem">All Links | جميع الروابط</div><h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2"><span class="en">Quick reference — all form links</span><span class="ar" style="margin-top:.3rem">مرجع سريع — كل روابط النماذج</span></h2><div style="display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.3rem"><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLScp7-F33hoN7E3lvsJVaf1gunQ1ZJgDy-0HGbRaPckFU6xKcA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">👤</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#a78bfa">Individual User Registration</span><span class="ar" style="font-size:.93rem;color:#a78bfa;margin-top:.2rem">تسجيل المستخدم الفردي</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdOHt9YaUX-WTM8-hCJErydVKs6FgvuJXb0KqVoMakh0xP6_w/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">🏥</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#67e8f9">Medical Establishment Registration</span><span class="ar" style="font-size:.93rem;color:#67e8f9;margin-top:.2rem">تسجيل المؤسسة الطبية</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSfTxHp6pQS3krEnihMdmomOKkHvF1ZhKMDVHFLsN1XLdJWI4g/viewform" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">🎓</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Academic Degree</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">المؤهل الدراسي</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLScAo5zIk7T-rXrCtJKLG_bMO_zVMpZ_0yCoAZaGRyfaq1PNcw/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">📜</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Post Graduate Education</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">الدراسات العليا والشهادات</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdyLdyudMD39PJIAiyGuuCgJbH4_bxcoXA7JNVrsEIS2pH66g/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">💼</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Work Experience</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">الخبرة العملية</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdcZKkMAGFKOTBc3XJNNWN9mMeV-qdsGstu6rmux0T2l1cGPA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">📋</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#fcd34d">Job Application Form</span><span class="ar" style="font-size:.93rem;color:#fcd34d;margin-top:.2rem">نموذج طلب التوظيف</span></div></a><a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdpw65hjB9ArQMmuAxNrDL-odCS_2oy49NPjJrNm-QmNYgopQ/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit"><span style="font-size:1.5rem">💡</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#5eead4">Job Vacancy Form</span><span class="ar" style="font-size:.93rem;color:#5eead4;margin-top:.2rem">نموذج الوظائف الشاغرة</span></div></a><div class="glass" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;opacity:.9"><span style="font-size:1.5rem">📱</span><div><span class="en" style="font-weight:600;font-size:.95rem;color:#5eead4"><a href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank" style="color:#67e8f9;text-decoration:underline;">Izbetalia App</a></span><span class="ar" style="font-size:.93rem;color:#5eead4;margin-top:.2rem"><a href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank" style="color:#67e8f9;text-decoration:underline;">تطبيق إزبيتاليا</a></span></div></div></div></div></div>
+<div class="slide" data-s="7"><div class="orb" style="width:500px;height:500px;top:-120px;right:-100px;background:#7c3aed;opacity:.16"></div><div class="orb" style="width:340px;height:340px;bottom:-90px;left:-60px;background:#06b6d4;opacity:.14"></div><div class="content" style="text-align:center"><div style="font-size:clamp(4rem,9vw,6.5rem)" class="float">🚀</div><h2 style="font-family:'Cairo',sans-serif;font-size:clamp(2rem,5vw,4rem);font-weight:900;line-height:1.1;margin:.6rem 0 .5rem;background:linear-gradient(135deg,#a78bfa,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">You are ready! | أنت جاهز!</h2><p class="en" style="color:#94a3b8;font-size:clamp(.95rem,1.4vw,1.15rem);max-width:700px;margin:.5rem auto 0">Register → Complete your profile → Post your listing → Browse the Izbetalia → Connect with the right match.</p><p class="ar" style="color:#94a3b8;font-size:clamp(.95rem,1.4vw,1.15rem);max-width:700px;margin:.5rem auto 0">سجّل ← أكمل ملفك ← انشر إعلانك ← تصفح إزبتاليا ← تواصل مع الشخص المناسب.</p><div class="glass" style="max-width:680px;margin:1.8rem auto 0;padding:1.3rem 1.6rem"><span class="en" style="font-size:.97rem;color:#cbd5e1">All listings are active for 30 days. You will receive a renewal reminder before expiry.</span><span class="ar" style="font-size:1rem;color:#cbd5e1;margin-top:.5rem">جميع الإعلانات نشطة لمدة 30 يومًا. ستصلك رسالة تذكير قبل انتهاء الصلاحية.</span></div></div></div>
 </div>
-
-<!-- SLIDE 2: WHO ARE YOU? -->
-<div class="slide" data-s="2">
-  <div class="orb" style="width:400px;height:400px;top:-100px;right:-80px;background:#06b6d4;opacity:.13"></div>
-  <div class="orb" style="width:280px;height:280px;bottom:-70px;left:-40px;background:#7c3aed;opacity:.13"></div>
-  <div class="content">
-    <div class="badge badge-teal" style="margin-bottom:1rem">Step 1 | الخطوة الأولى</div>
-    <h2 style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;line-height:1.2">
-      <span class="en">Who are you? Choose your account type.</span>
-      <span class="ar" style="margin-top:.35rem">من أنت؟ اختر نوع حسابك.</span>
-    </h2>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:1.6rem">
-      <div class="glass" style="padding:1.6rem">
-        <div style="font-size:2.5rem;margin-bottom:.8rem">👤</div>
-        <span class="en" style="font-size:1.15rem;font-weight:700;color:#a78bfa">Individual User</span>
-        <span class="ar" style="font-size:1.15rem;font-weight:700;color:#a78bfa;margin-top:.3rem">مستخدم فردي</span>
-        <p class="en" style="color:#94a3b8;font-size:.92rem;margin-top:.7rem">Doctors, nurses, pharmacists, allied health professionals, administrative staff, executives, and all medical and healthcare-support professionals looking for opportunities.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.95rem;margin-top:.5rem">أطباء، ممرضون، صيادلة، كوادر صحية مساندة، موظفون إداريون، تنفيذيون، وكل المهنيين في المجال الطبي والوظائف الداعمة للرعاية الصحية الباحثين عن فرص.</p>
-        <div style="margin-top:1.2rem">
-          <a class="btn-link" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank">📝 Register – سجّل</a>
-        </div>
-      </div>
-      <div class="glass" style="padding:1.6rem">
-        <div style="font-size:2.5rem;margin-bottom:.8rem">🏥</div>
-        <span class="en" style="font-size:1.15rem;font-weight:700;color:#67e8f9">Medical Establishment</span>
-        <span class="ar" style="font-size:1.15rem;font-weight:700;color:#67e8f9;margin-top:.3rem">مؤسسة طبية</span>
-        <p class="en" style="color:#94a3b8;font-size:.92rem;margin-top:.7rem">Hospitals, clinics, pharmacies, medical centers, agencies, companies, and supporting establishments looking to hire qualified staff and professionals.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.95rem;margin-top:.5rem">مستشفيات، عيادات، صيدليات، مراكز طبية، وكالات، شركات، وجهات داعمة تبحث عن كوادر وموظفين مؤهلين.</p>
-        <div style="margin-top:1.2rem">
-          <a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdOHt9YaUX-WTM8-hCJErydVKs6FgvuJXb0KqVoMakh0xP6_w/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Register – سجّل</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SLIDE 3: PROFILE DETAILS (Individual) -->
-<div class="slide" data-s="3">
-  <div class="orb" style="width:360px;height:360px;top:-80px;right:-60px;background:#a78bfa;opacity:.12"></div>
-  <div class="orb" style="width:260px;height:260px;bottom:-60px;left:-30px;background:#06b6d4;opacity:.1"></div>
-  <div class="content">
-    <div class="badge badge-violet" style="margin-bottom:1rem">Step 2 – Individual Users Only | الخطوة الثانية – للمستخدمين الأفراد فقط</div>
-    <h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2">
-      <span class="en">Complete your professional profile</span>
-      <span class="ar" style="margin-top:.3rem">أكمل ملفك المهني</span>
-    </h2>
-    <p class="en" style="color:#94a3b8;margin:.7rem 0 1.4rem">After registering, add your academic background, postgraduate qualifications, and work history using the three forms below.</p>
-    <p class="ar" style="color:#94a3b8;margin:.5rem 0 1.4rem;font-size:.98rem">بعد التسجيل، أضف مؤهلاتك الأكاديمية والدراسات العليا وخبراتك المهنية باستخدام النماذج الثلاثة التالية.</p>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem">
-      <div class="glass" style="padding:1.4rem">
-        <div style="font-size:2rem;margin-bottom:.7rem">🎓</div>
-        <span class="en" style="font-weight:700;font-size:1rem">Academic Degree</span>
-        <span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">المؤهل الدراسي</span>
-        <p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Add your university degrees and graduation details.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">أضف درجاتك الجامعية وتفاصيل التخرج.</p>
-        <div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfTxHp6pQS3krEnihMdmomOKkHvF1ZhKMDVHFLsN1XLdJWI4g/viewform" target="_blank">Open Form ←</a></div>
-      </div>
-      <div class="glass" style="padding:1.4rem">
-        <div style="font-size:2rem;margin-bottom:.7rem">📜</div>
-        <span class="en" style="font-weight:700;font-size:1rem">Post Graduate Education</span>
-        <span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">الدراسات العليا والشهادات</span>
-        <p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Certifications, fellowships, and specialty qualifications.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">الشهادات والزمالات والمؤهلات التخصصية.</p>
-        <div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLScAo5zIk7T-rXrCtJKLG_bMO_zVMpZ_0yCoAZaGRyfaq1PNcw/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">Open Form ←</a></div>
-      </div>
-      <div class="glass" style="padding:1.4rem">
-        <div style="font-size:2rem;margin-bottom:.7rem">💼</div>
-        <span class="en" style="font-weight:700;font-size:1rem">Work Experience</span>
-        <span class="ar" style="font-size:1rem;font-weight:700;margin-top:.3rem">الخبرة العملية</span>
-        <p class="en" style="color:#94a3b8;font-size:.85rem;margin-top:.6rem">Add each job position, employer, and employment dates.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.88rem;margin-top:.4rem">أضف كل منصب وجهة عمل وتواريخ التوظيف.</p>
-        <div style="margin-top:1rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdyLdyudMD39PJIAiyGuuCgJbH4_bxcoXA7JNVrsEIS2pH66g/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">Open Form ←</a></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SLIDE 4: POST LISTING -->
-<div class="slide" data-s="4">
-  <div class="orb" style="width:380px;height:380px;top:-90px;right:-70px;background:#06b6d4;opacity:.12"></div>
-  <div class="orb" style="width:260px;height:260px;bottom:-60px;left:-40px;background:#7c3aed;opacity:.11"></div>
-  <div class="content">
-    <div class="badge badge-amber" style="margin-bottom:1rem">Step 3 | الخطوة الثالثة</div>
-    <h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2">
-      <span class="en">Post your listing on the Izbetalia</span>
-      <span class="ar" style="margin-top:.3rem">انشر إعلانك في إزبتاليا</span>
-    </h2>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:1.4rem">
-      <div class="glass" style="padding:1.6rem">
-        <span class="badge badge-violet" style="margin-bottom:.9rem">Individual User | مستخدم فردي</span>
-        <div style="font-size:2rem;margin:.5rem 0 .8rem">📋</div>
-        <span class="en" style="font-weight:700;font-size:1.1rem">Job Application Form</span>
-        <span class="ar" style="font-weight:700;font-size:1.1rem;margin-top:.3rem">نموذج طلب التوظيف</span>
-        <p class="en" style="color:#94a3b8;font-size:.88rem;margin-top:.65rem">Create your candidate listing: specialty, experience level, employment type, location, and preferences. Medical establishments will find and contact you.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">أنشئ إعلانك كمرشح: التخصص، مستوى الخبرة، نوع العمل، الموقع والتفضيلات. ستجدك المؤسسات الطبية وتتواصل معك.</p>
-        <div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdcZKkMAGFKOTBc3XJNNWN9mMeV-qdsGstu6rmux0T2l1cGPA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Post Application – انشر الطلب</a></div>
-      </div>
-      <div class="glass" style="padding:1.6rem">
-        <span class="badge badge-teal" style="margin-bottom:.9rem">Medical Establishment | مؤسسة طبية</span>
-        <div style="font-size:2rem;margin:.5rem 0 .8rem">🏥</div>
-        <span class="en" style="font-weight:700;font-size:1.1rem">Job Vacancy Form</span>
-        <span class="ar" style="font-weight:700;font-size:1.1rem;margin-top:.3rem">نموذج الوظائف الشاغرة</span>
-        <p class="en" style="color:#94a3b8;font-size:.88rem;margin-top:.65rem">Post your open position: job title, required specialty, experience, employment type, and location. Qualified candidates will find and contact you.</p>
-        <p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">انشر وظيفتك الشاغرة: المسمى، التخصص المطلوب، الخبرة، نوع العمل والموقع. سيجدك المرشحون المؤهلون ويتواصلون معك.</p>
-        <div style="margin-top:1.2rem"><a class="btn-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdpw65hjB9ArQMmuAxNrDL-odCS_2oy49NPjJrNm-QmNYgopQ/viewform?usp=sharing&ouid=118001797602283468169" target="_blank">📝 Post Vacancy – انشر الوظيفة</a></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SLIDE 5: BROWSE -->
-<div class="slide" data-s="5">
-  <div class="orb" style="width:420px;height:420px;top:-90px;right:-80px;background:#06b6d4;opacity:.12"></div>
-  <div class="orb" style="width:300px;height:300px;bottom:-70px;left:-50px;background:#a78bfa;opacity:.12"></div>
-  <div class="content">
-    <div class="badge badge-teal" style="margin-bottom:1rem">Step 4 | الخطوة الرابعة</div>
-    <h2 style="font-size:clamp(1.8rem,3.4vw,2.8rem);font-weight:800;line-height:1.15;text-align:center">
-      <span class="en">Browse & contact on the Izbetalia App</span>
-      <span class="ar" style="margin-top:.35rem;text-align:center">تصفح وتواصل عبر تطبيق إزبيتاليا</span>
-    </h2>
-    <p class="en" style="text-align:center;color:#94a3b8;margin:.8rem auto 1.6rem;max-width:900px">Once you have registered and posted your listing, open the Izbetalia App to search and browse all active listings — no sign-in needed to browse!</p>
-    <p class="ar" style="text-align:center;color:#94a3b8;margin:.5rem auto 1.6rem;max-width:900px;font-size:.98rem">بعد التسجيل ونشر إعلانك، افتح تطبيق إزبيتاليا للبحث والتصفح في جميع الإعلانات النشطة — لا تحتاج لتسجيل دخول للتصفح!</p>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;align-items:stretch">
-      <div class="glass" style="padding:1.4rem;display:flex;flex-direction:column;justify-content:space-between;min-height:260px">
-        <div>
-          <div style="font-size:2rem;margin-bottom:.6rem">🔎</div>
-          <h3 class="en" style="font-size:1.05rem;font-weight:800">Browse and Search Available Job Vacancies</h3>
-          <h3 class="ar" style="font-size:1.05rem;font-weight:800;margin-top:.35rem">تصفح و بحث فرص الوظائف المتوفرة</h3>
-          <p class="en" style="color:#94a3b8;font-size:.9rem;margin-top:.8rem">All open job vacancies posted by medical establishments — filter by specialty, location, and employment type. Find the right opportunity and send a contact request.</p>
-          <p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">جميع الوظائف الشاغرة المنشورة من المؤسسات الطبية — يمكن التصفية حسب التخصص والموقع ونوع العمل. ابحث عن الفرصة المناسبة وأرسل طلب تواصل.</p>
-        </div>
-        <a class="btn-link" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA63PvQ7CIBQF4FcxZ-YJWI2DGnXQuIgDLbcJsQUCVG0I7y71Jw5u6si5OV8OCWdNl22U9Qn8kN6vJQ3gSAK7wZEAF5haE71tBZjAWnaPcGGrycY562NvdNQUBDLykb2gSAE8fenwP-1h0IpM1I0mP6IjUbAnUM5jvQQfZWSGro-yaun-l1LOuWSNrftAal_G_TIqzM3s6qRRK6uK3cg2UL4BfeEDDJIBAAA=&view=Job%20Opportunities" target="_blank" style="align-self:flex-start">Open Vacancies</a>
-      </div>
-      <div class="glass" style="padding:1.4rem;display:flex;flex-direction:column;justify-content:space-between;min-height:260px">
-        <div>
-          <div style="font-size:2rem;margin-bottom:.6rem">🧩</div>
-          <h3 class="en" style="font-size:1.05rem;font-weight:800">Browse and Search Available Job Applications</h3>
-          <h3 class="ar" style="font-size:1.05rem;font-weight:800;margin-top:.35rem">تصفح و بحث طلبات التوظيف المتوفرة</h3>
-          <p class="en" style="color:#94a3b8;font-size:.9rem;margin-top:.8rem">All active job applications posted by individual users — filter by specialty, experience level, and location. Find the right candidate and send a contact request.</p>
-          <p class="ar" style="color:#94a3b8;font-size:.92rem;margin-top:.5rem">جميع طلبات التوظيف النشطة المنشورة من الأفراد — يمكن التصفية حسب التخصص والخبرة والموقع. ابحث عن المرشح المناسب وأرسل طلب تواصل.</p>
-        </div>
-        <a class="btn-link" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA62PvQrCMBSFX0XOnCfIJuKgooviYhzS5haCaRKaVC0h727qD4KjOt5z-D7OTThrumyjrE_gh_S-VjSAIwnsBk8CXGDmbOycEWACG9k-wqWrJlPvja5l1M4GgYx8ZC9PpACevtPw_6xh0Ips1I2mbnSOhuJ68qUe6RJ8ssgMbR9lZej-SGFzLlnj6j6Q2pdpP0wKCzu_emnV2qmibqQJlG-vplxwjQEAAA==&view=Job%20Applications" target="_blank" style="align-self:flex-start">Open Applications</a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- SLIDE 6: QUICK LINKS SUMMARY -->
-<div class="slide" data-s="6">
-  <div class="orb" style="width:420px;height:420px;top:-110px;right:-90px;background:#a78bfa;opacity:.13"></div>
-  <div class="orb" style="width:300px;height:300px;bottom:-80px;left:-50px;background:#06b6d4;opacity:.12"></div>
-  <div class="content">
-    <div class="badge badge-rose" style="margin-bottom:1rem">All Links | جميع الروابط</div>
-    <h2 style="font-size:clamp(1.6rem,3vw,2.5rem);font-weight:800;line-height:1.2">
-      <span class="en">Quick reference — all form links</span>
-      <span class="ar" style="margin-top:.3rem">مرجع سريع — كل روابط النماذج</span>
-    </h2>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.3rem">
-      <a class="glass plain" href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">👤</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#a78bfa">Individual User Registration</span><span class="ar" style="font-size:.93rem;color:#a78bfa;margin-top:.2rem">تسجيل المستخدم الفردي</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdOHt9YaUX-WTM8-hCJErydVKs6FgvuJXb0KqVoMakh0xP6_w/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">🏥</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#67e8f9">Medical Establishment Registration</span><span class="ar" style="font-size:.93rem;color:#67e8f9;margin-top:.2rem">تسجيل المؤسسة الطبية</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSfTxHp6pQS3krEnihMdmomOKkHvF1ZhKMDVHFLsN1XLdJWI4g/viewform" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">🎓</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Academic Degree</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">المؤهل الدراسي</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLScAo5zIk7T-rXrCtJKLG_bMO_zVMpZ_0yCoAZaGRyfaq1PNcw/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">📜</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Post Graduate Education</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">الدراسات العليا والشهادات</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdyLdyudMD39PJIAiyGuuCgJbH4_bxcoXA7JNVrsEIS2pH66g/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">💼</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#c4b5fd">Work Experience</span><span class="ar" style="font-size:.93rem;color:#c4b5fd;margin-top:.2rem">الخبرة العملية</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdcZKkMAGFKOTBc3XJNNWN9mMeV-qdsGstu6rmux0T2l1cGPA/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">📋</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#fcd34d">Job Application Form</span><span class="ar" style="font-size:.93rem;color:#fcd34d;margin-top:.2rem">نموذج طلب التوظيف</span></div>
-      </a>
-      <a class="glass plain" href="https://docs.google.com/forms/d/e/1FAIpQLSdpw65hjB9ArQMmuAxNrDL-odCS_2oy49NPjJrNm-QmNYgopQ/viewform?usp=sharing&ouid=118001797602283468169" target="_blank" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;text-decoration:none;color:inherit">
-        <span style="font-size:1.5rem">💡</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#5eead4">Job Vacancy Form</span><span class="ar" style="font-size:.93rem;color:#5eead4;margin-top:.2rem">نموذج الوظائف الشاغرة</span></div>
-      </a>
-      <div class="glass" style="padding:1rem 1.2rem;display:flex;gap:.8rem;align-items:flex-start;opacity:.6">
-        <span style="font-size:1.5rem">📱</span>
-        <div><span class="en" style="font-weight:600;font-size:.95rem;color:#5eead4"><a href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank" style="color:#67e8f9;text-decoration:underline;">Izbetalia App</a></span><span class="ar" style="font-size:.93rem;color:#5eead4;margin-top:.2rem"><a href="https://www.appsheet.com/start/a43c5210-bf04-4b1c-871c-d78c4ae3b0e3?platform=desktop#appName=IzbetaliaRecruitmentFinal-285389941&vss=H4sIAAAAAAAAA6WOzQrCMBCEX0XmnCfIVQRFFEHxYjzEZivBNilNqpaQd3fr71k9zizft5NwtnRZR12cIHfpk-bUQyIpbPqGFKTC2LvY-kpBKCx1_SinvqbRSh85ZeS9eAkiBcj0JS___C9gDbloS0vtIBtQljxBPg8YF28IWaDuoj5UdN_MUM7clb7oApktj_llRJi5ybXRziy8YWepq0D5BgRhPKBqAQAA&view=Home%20Page" target="_blank" style="color:#67e8f9;text-decoration:underline;">تطبيق إزبيتاليا</a></span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SLIDE 7: CLOSING -->
-<div class="slide" data-s="7">
-  <div class="orb" style="width:500px;height:500px;top:-120px;right:-100px;background:#7c3aed;opacity:.16"></div>
-  <div class="orb" style="width:340px;height:340px;bottom:-90px;left:-60px;background:#06b6d4;opacity:.14"></div>
-  <div class="content" style="text-align:center">
-    <div style="font-size:clamp(4rem,9vw,6.5rem)" class="float">🚀</div>
-    <h2 style="font-family:'Cairo',sans-serif;font-size:clamp(2rem,5vw,4rem);font-weight:900;line-height:1.1;margin:.6rem 0 .5rem;background:linear-gradient(135deg,#a78bfa,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">You are ready! | أنت جاهز!</h2>
-    <p class="en" style="color:#94a3b8;font-size:clamp(.95rem,1.4vw,1.15rem);max-width:700px;margin:.5rem auto 0">Register → Complete your profile → Post your listing → Browse the Izbetalia → Connect with the right match.</p>
-    <p class="ar" style="color:#94a3b8;font-size:clamp(.95rem,1.4vw,1.15rem);max-width:700px;margin:.5rem auto 0">سجّل ← أكمل ملفك ← انشر إعلانك ← تصفح إزبتاليا ← تواصل مع الشخص المناسب.</p>
-    <div class="glass" style="max-width:680px;margin:1.8rem auto 0;padding:1.3rem 1.6rem">
-      <span class="en" style="font-size:.97rem;color:#cbd5e1">All listings are active for 30 days. You will receive a renewal reminder before expiry.</span>
-      <span class="ar" style="font-size:1rem;color:#cbd5e1;margin-top:.5rem">جميع الإعلانات نشطة لمدة 30 يومًا. ستصلك رسالة تذكير قبل انتهاء الصلاحية.</span>
-    </div>
-  </div>
-</div>
-
-</div><!-- end deck -->
-
-<!-- NAV -->
-<div class="nav">
-  <button class="nbtn" onclick="move(-1)">&#8249;</button>
-  <div id="dots" style="display:flex;gap:8px"></div>
-  <button class="nbtn" onclick="move(1)">&#8250;</button>
-  <span class="ctr" id="ctr">1 / 7</span>
-</div>
-
+<div class="nav"><button class="nbtn" onclick="move(-1)">&#8249;</button><div id="dots" style="display:flex;gap:8px"></div><button class="nbtn" onclick="move(1)">&#8250;</button><span class="ctr" id="ctr">1 / 7</span></div>
 <script>
 const slides=[...document.querySelectorAll('.slide')];
 const total=slides.length;
 const dotsEl=document.getElementById('dots');
 const ctrEl=document.getElementById('ctr');
 let cur=0;
-for(let i=0;i<total;i++){const d=document.createElement('div');d.className='dot'+(i===0?' active':'');d.onclick=()=>go(i);dotsEl.appendChild(d);}
+for(let i=0;i<total;i++){const d=document.createElement('div');d.className='dot'+(i===0?' active':'');d.onclick=()=>go(i);dotsEl.appendChild(d);} 
 function go(n){slides[cur].classList.remove('active');cur=((n%total)+total)%total;slides[cur].classList.add('active');[...dotsEl.children].forEach((d,i)=>d.classList.toggle('active',i===cur));ctrEl.textContent=(cur+1)+' / '+total;}
-function move(dir){go(cur+dir);}
+function move(dir){go(cur+dir);} 
 document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' ')move(1);else if(e.key==='ArrowLeft')move(-1);});
 let ts=0;
 document.addEventListener('touchstart',e=>{ts=e.touches[0].clientX;});
